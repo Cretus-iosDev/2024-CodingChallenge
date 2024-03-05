@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45AD3992B7F8DCB0070D4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD3982B7F8DCB0070D4A4 /* AppDelegate.swift */; };
+		F46E99272B84BAC20088AFD4 /* GoogleMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99092B84BAC10088AFD4 /* GoogleMapManager.swift */; };
+		F46E99282B84BAC20088AFD4 /* DirectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E990A2B84BAC10088AFD4 /* DirectionManager.swift */; };
+		F46E99292B84BAC20088AFD4 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E990B2B84BAC10088AFD4 /* NetworkingManager.swift */; };
+		F46E992A2B84BAC20088AFD4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E990C2B84BAC10088AFD4 /* LocationManager.swift */; };
+		F46E992B2B84BAC20088AFD4 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E990D2B84BAC10088AFD4 /* SearchManager.swift */; };
+		F46E992C2B84BAC20088AFD4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E990F2B84BAC20088AFD4 /* CustomTextField.swift */; };
+		F46E992D2B84BAC20088AFD4 /* MapDirectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99112B84BAC20088AFD4 /* MapDirectionModel.swift */; };
+		F46E992E2B84BAC20088AFD4 /* MapDirectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99122B84BAC20088AFD4 /* MapDirectionViewModel.swift */; };
+		F46E992F2B84BAC20088AFD4 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99132B84BAC20088AFD4 /* DirectionsView.swift */; };
+		F46E99302B84BAC20088AFD4 /* DirectionSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99152B84BAC20088AFD4 /* DirectionSearchView.swift */; };
+		F46E99312B84BAC20088AFD4 /* DirectionSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99162B84BAC20088AFD4 /* DirectionSearchViewModel.swift */; };
+		F46E99322B84BAC20088AFD4 /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99182B84BAC20088AFD4 /* Statics.swift */; };
+		F46E99332B84BAC20088AFD4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E991A2B84BAC20088AFD4 /* CustomCell.swift */; };
+		F46E99342B84BAC20088AFD4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E991C2B84BAC20088AFD4 /* MapViewController.swift */; };
+		F46E99352B84BAC20088AFD4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E991D2B84BAC20088AFD4 /* MapView.swift */; };
+		F46E99362B84BAC20088AFD4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E991E2B84BAC20088AFD4 /* MapViewModel.swift */; };
+		F46E99372B84BAC20088AFD4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99202B84BAC20088AFD4 /* InfoView.swift */; };
+		F46E99382B84BAC20088AFD4 /* DirectionMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99222B84BAC20088AFD4 /* DirectionMapViewModel.swift */; };
+		F46E99392B84BAC20088AFD4 /* DirectionLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99232B84BAC20088AFD4 /* DirectionLocationManager.swift */; };
+		F46E993A2B84BAC20088AFD4 /* DirectionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99242B84BAC20088AFD4 /* DirectionMapViewController.swift */; };
+		F46E993B2B84BAC20088AFD4 /* StateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99252B84BAC20088AFD4 /* StateHandler.swift */; };
+		F46E993C2B84BAC20088AFD4 /* DirectionMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99262B84BAC20088AFD4 /* DirectionMapView.swift */; };
+		F46E99412B84BC140088AFD4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E993E2B84BC140088AFD4 /* SearchView.swift */; };
+		F46E99422B84BC140088AFD4 /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E993F2B84BC140088AFD4 /* SearchResultModel.swift */; };
+		F46E99432B84BC140088AFD4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99402B84BC140088AFD4 /* SearchViewModel.swift */; };
+		F46E99472B84BC830088AFD4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99452B84BC830088AFD4 /* HomeViewModel.swift */; };
+		F46E99482B84BC830088AFD4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46E99462B84BC830088AFD4 /* HomeView.swift */; };
+		F4CFB0CB2B7F770100DB824C /* GmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFB0CA2B7F770100DB824C /* GmapApp.swift */; };
+		F4CFB0CF2B7F770200DB824C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CFB0CE2B7F770200DB824C /* Assets.xcassets */; };
+		F4CFB0D22B7F770200DB824C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CFB0D12B7F770200DB824C /* Preview Assets.xcassets */; };
+		F4CFB0DA2B7F775F00DB824C /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = F4CFB0D92B7F775F00DB824C /* GoogleMaps */; };
+		F4CFB0DC2B7F775F00DB824C /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = F4CFB0DB2B7F775F00DB824C /* GoogleMapsBase */; };
+		F4CFB0DE2B7F775F00DB824C /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = F4CFB0DD2B7F775F00DB824C /* GoogleMapsCore */; };
+		F4CFB0E02B7F775F00DB824C /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = F4CFB0DF2B7F775F00DB824C /* GoogleMapsM4B */; };
+		F4F769822B807BD9003EE88E /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = F4F769812B807BD9003EE88E /* GooglePlaces */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F45AD3982B7F8DCB0070D4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46E99092B84BAC10088AFD4 /* GoogleMapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapManager.swift; sourceTree = "<group>"; };
+		F46E990A2B84BAC10088AFD4 /* DirectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionManager.swift; sourceTree = "<group>"; };
+		F46E990B2B84BAC10088AFD4 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		F46E990C2B84BAC10088AFD4 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F46E990D2B84BAC10088AFD4 /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		F46E990F2B84BAC20088AFD4 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F46E99112B84BAC20088AFD4 /* MapDirectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDirectionModel.swift; sourceTree = "<group>"; };
+		F46E99122B84BAC20088AFD4 /* MapDirectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDirectionViewModel.swift; sourceTree = "<group>"; };
+		F46E99132B84BAC20088AFD4 /* DirectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		F46E99152B84BAC20088AFD4 /* DirectionSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionSearchView.swift; sourceTree = "<group>"; };
+		F46E99162B84BAC20088AFD4 /* DirectionSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionSearchViewModel.swift; sourceTree = "<group>"; };
+		F46E99182B84BAC20088AFD4 /* Statics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statics.swift; sourceTree = "<group>"; };
+		F46E991A2B84BAC20088AFD4 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F46E991C2B84BAC20088AFD4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F46E991D2B84BAC20088AFD4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F46E991E2B84BAC20088AFD4 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		F46E99202B84BAC20088AFD4 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F46E99222B84BAC20088AFD4 /* DirectionMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionMapViewModel.swift; sourceTree = "<group>"; };
+		F46E99232B84BAC20088AFD4 /* DirectionLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionLocationManager.swift; sourceTree = "<group>"; };
+		F46E99242B84BAC20088AFD4 /* DirectionMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionMapViewController.swift; sourceTree = "<group>"; };
+		F46E99252B84BAC20088AFD4 /* StateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateHandler.swift; sourceTree = "<group>"; };
+		F46E99262B84BAC20088AFD4 /* DirectionMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionMapView.swift; sourceTree = "<group>"; };
+		F46E993E2B84BC140088AFD4 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F46E993F2B84BC140088AFD4 /* SearchResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
+		F46E99402B84BC140088AFD4 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F46E99452B84BC830088AFD4 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F46E99462B84BC830088AFD4 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F4CFB0C72B7F770100DB824C /* Gmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CFB0CA2B7F770100DB824C /* GmapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmapApp.swift; sourceTree = "<group>"; };
+		F4CFB0CE2B7F770200DB824C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CFB0D12B7F770200DB824C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4CFB0E42B7F78CC00DB824C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CFB0C42B7F770100DB824C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CFB0DA2B7F775F00DB824C /* GoogleMaps in Frameworks */,
+				F4CFB0DE2B7F775F00DB824C /* GoogleMapsCore in Frameworks */,
+				F4CFB0E02B7F775F00DB824C /* GoogleMapsM4B in Frameworks */,
+				F4F769822B807BD9003EE88E /* GooglePlaces in Frameworks */,
+				F4CFB0DC2B7F775F00DB824C /* GoogleMapsBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46E99082B84BAC10088AFD4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99092B84BAC10088AFD4 /* GoogleMapManager.swift */,
+				F46E990A2B84BAC10088AFD4 /* DirectionManager.swift */,
+				F46E990B2B84BAC10088AFD4 /* NetworkingManager.swift */,
+				F46E990C2B84BAC10088AFD4 /* LocationManager.swift */,
+				F46E990D2B84BAC10088AFD4 /* SearchManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F46E990E2B84BAC20088AFD4 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				F46E990F2B84BAC20088AFD4 /* CustomTextField.swift */,
+			);
+			name = ReusableViews;
+			path = "../../GoogleMaps-SwiggyClone-main/GoogleMaps-FoodDeliveryApp/GoogleMaps-FoodDeliveryApp/ReusableViews";
+			sourceTree = "<group>";
+		};
+		F46E99102B84BAC20088AFD4 /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99112B84BAC20088AFD4 /* MapDirectionModel.swift */,
+				F46E99122B84BAC20088AFD4 /* MapDirectionViewModel.swift */,
+				F46E99132B84BAC20088AFD4 /* DirectionsView.swift */,
+			);
+			path = Directions;
+			sourceTree = "<group>";
+		};
+		F46E99142B84BAC20088AFD4 /* DirectionSearch */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99152B84BAC20088AFD4 /* DirectionSearchView.swift */,
+				F46E99162B84BAC20088AFD4 /* DirectionSearchViewModel.swift */,
+			);
+			path = DirectionSearch;
+			sourceTree = "<group>";
+		};
+		F46E99172B84BAC20088AFD4 /* Statics */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99182B84BAC20088AFD4 /* Statics.swift */,
+			);
+			name = Statics;
+			path = "../../GoogleMaps-SwiggyClone-main/GoogleMaps-FoodDeliveryApp/GoogleMaps-FoodDeliveryApp/Statics";
+			sourceTree = "<group>";
+		};
+		F46E99192B84BAC20088AFD4 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F46E991A2B84BAC20088AFD4 /* CustomCell.swift */,
+			);
+			name = CustomCell;
+			path = "../../GoogleMaps-SwiggyClone-main/GoogleMaps-FoodDeliveryApp/GoogleMaps-FoodDeliveryApp/CustomCell";
+			sourceTree = "<group>";
+		};
+		F46E991B2B84BAC20088AFD4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F46E991C2B84BAC20088AFD4 /* MapViewController.swift */,
+				F46E991D2B84BAC20088AFD4 /* MapView.swift */,
+				F46E991E2B84BAC20088AFD4 /* MapViewModel.swift */,
+			);
+			name = Map;
+			path = "../../GoogleMaps-SwiggyClone-main/GoogleMaps-FoodDeliveryApp/GoogleMaps-FoodDeliveryApp/Map";
+			sourceTree = "<group>";
+		};
+		F46E991F2B84BAC20088AFD4 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99202B84BAC20088AFD4 /* InfoView.swift */,
+			);
+			name = Info;
+			path = "../../GoogleMaps-SwiggyClone-main/GoogleMaps-FoodDeliveryApp/GoogleMaps-FoodDeliveryApp/Info";
+			sourceTree = "<group>";
+		};
+		F46E99212B84BAC20088AFD4 /* DirectionMap */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99222B84BAC20088AFD4 /* DirectionMapViewModel.swift */,
+				F46E99232B84BAC20088AFD4 /* DirectionLocationManager.swift */,
+				F46E99242B84BAC20088AFD4 /* DirectionMapViewController.swift */,
+				F46E99252B84BAC20088AFD4 /* StateHandler.swift */,
+				F46E99262B84BAC20088AFD4 /* DirectionMapView.swift */,
+			);
+			path = DirectionMap;
+			sourceTree = "<group>";
+		};
+		F46E993D2B84BC140088AFD4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F46E993E2B84BC140088AFD4 /* SearchView.swift */,
+				F46E993F2B84BC140088AFD4 /* SearchResultModel.swift */,
+				F46E99402B84BC140088AFD4 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F46E99442B84BC830088AFD4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F46E99452B84BC830088AFD4 /* HomeViewModel.swift */,
+				F46E99462B84BC830088AFD4 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F4CFB0BE2B7F770100DB824C = {
+			isa = PBXGroup;
+			children = (
+				F4CFB0C92B7F770100DB824C /* Gmap */,
+				F4CFB0C82B7F770100DB824C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CFB0C82B7F770100DB824C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFB0C72B7F770100DB824C /* Gmap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CFB0C92B7F770100DB824C /* Gmap */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFB0E42B7F78CC00DB824C /* Info.plist */,
+				F46E99442B84BC830088AFD4 /* Home */,
+				F46E993D2B84BC140088AFD4 /* Search */,
+				F46E99192B84BAC20088AFD4 /* CustomCell */,
+				F46E99212B84BAC20088AFD4 /* DirectionMap */,
+				F46E99102B84BAC20088AFD4 /* Directions */,
+				F46E99142B84BAC20088AFD4 /* DirectionSearch */,
+				F46E991F2B84BAC20088AFD4 /* Info */,
+				F46E99082B84BAC10088AFD4 /* Manager */,
+				F46E991B2B84BAC20088AFD4 /* Map */,
+				F46E990E2B84BAC20088AFD4 /* ReusableViews */,
+				F46E99172B84BAC20088AFD4 /* Statics */,
+				F4CFB0CA2B7F770100DB824C /* GmapApp.swift */,
+				F4CFB0CE2B7F770200DB824C /* Assets.xcassets */,
+				F45AD3982B7F8DCB0070D4A4 /* AppDelegate.swift */,
+				F4CFB0D02B7F770200DB824C /* Preview Content */,
+			);
+			path = Gmap;
+			sourceTree = "<group>";
+		};
+		F4CFB0D02B7F770200DB824C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFB0D12B7F770200DB824C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CFB0C62B7F770100DB824C /* Gmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CFB0D52B7F770200DB824C /* Build configuration list for PBXNativeTarget "Gmap" */;
+			buildPhases = (
+				F4CFB0C32B7F770100DB824C /* Sources */,
+				F4CFB0C42B7F770100DB824C /* Frameworks */,
+				F4CFB0C52B7F770100DB824C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gmap;
+			packageProductDependencies = (
+				F4CFB0D92B7F775F00DB824C /* GoogleMaps */,
+				F4CFB0DB2B7F775F00DB824C /* GoogleMapsBase */,
+				F4CFB0DD2B7F775F00DB824C /* GoogleMapsCore */,
+				F4CFB0DF2B7F775F00DB824C /* GoogleMapsM4B */,
+				F4F769812B807BD9003EE88E /* GooglePlaces */,
+			);
+			productName = Gmap;
+			productReference = F4CFB0C72B7F770100DB824C /* Gmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CFB0BF2B7F770100DB824C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F4CFB0C62B7F770100DB824C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F4CFB0C22B7F770100DB824C /* Build configuration list for PBXProject "Gmap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CFB0BE2B7F770100DB824C;
+			packageReferences = (
+				F4CFB0D82B7F775F00DB824C /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				F4F769802B807BD9003EE88E /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = F4CFB0C82B7F770100DB824C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CFB0C62B7F770100DB824C /* Gmap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CFB0C52B7F770100DB824C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CFB0D22B7F770200DB824C /* Preview Assets.xcassets in Resources */,
+				F4CFB0CF2B7F770200DB824C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CFB0C32B7F770100DB824C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46E992D2B84BAC20088AFD4 /* MapDirectionModel.swift in Sources */,
+				F46E99332B84BAC20088AFD4 /* CustomCell.swift in Sources */,
+				F46E992F2B84BAC20088AFD4 /* DirectionsView.swift in Sources */,
+				F46E99322B84BAC20088AFD4 /* Statics.swift in Sources */,
+				F46E99312B84BAC20088AFD4 /* DirectionSearchViewModel.swift in Sources */,
+				F46E99392B84BAC20088AFD4 /* DirectionLocationManager.swift in Sources */,
+				F46E99302B84BAC20088AFD4 /* DirectionSearchView.swift in Sources */,
+				F45AD3992B7F8DCB0070D4A4 /* AppDelegate.swift in Sources */,
+				F46E993A2B84BAC20088AFD4 /* DirectionMapViewController.swift in Sources */,
+				F46E99272B84BAC20088AFD4 /* GoogleMapManager.swift in Sources */,
+				F46E993B2B84BAC20088AFD4 /* StateHandler.swift in Sources */,
+				F46E992E2B84BAC20088AFD4 /* MapDirectionViewModel.swift in Sources */,
+				F46E99482B84BC830088AFD4 /* HomeView.swift in Sources */,
+				F46E99362B84BAC20088AFD4 /* MapViewModel.swift in Sources */,
+				F46E992C2B84BAC20088AFD4 /* CustomTextField.swift in Sources */,
+				F46E99372B84BAC20088AFD4 /* InfoView.swift in Sources */,
+				F46E99412B84BC140088AFD4 /* SearchView.swift in Sources */,
+				F46E99422B84BC140088AFD4 /* SearchResultModel.swift in Sources */,
+				F46E992A2B84BAC20088AFD4 /* LocationManager.swift in Sources */,
+				F46E99342B84BAC20088AFD4 /* MapViewController.swift in Sources */,
+				F4CFB0CB2B7F770100DB824C /* GmapApp.swift in Sources */,
+				F46E99352B84BAC20088AFD4 /* MapView.swift in Sources */,
+				F46E992B2B84BAC20088AFD4 /* SearchManager.swift in Sources */,
+				F46E99382B84BAC20088AFD4 /* DirectionMapViewModel.swift in Sources */,
+				F46E99472B84BC830088AFD4 /* HomeViewModel.swift in Sources */,
+				F46E993C2B84BAC20088AFD4 /* DirectionMapView.swift in Sources */,
+				F46E99432B84BC140088AFD4 /* SearchViewModel.swift in Sources */,
+				F46E99282B84BAC20088AFD4 /* DirectionManager.swift in Sources */,
+				F46E99292B84BAC20088AFD4 /* NetworkingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4CFB0D32B7F770200DB824C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4CFB0D42B7F770200DB824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CFB0D62B7F770200DB824C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gmap/Preview Content\"";
+				DEVELOPMENT_TEAM = H4FSC3U7GM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gmap/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need Access to you location to show you relevant search results. With \"Always\" access we'll also send you some noce notification";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need Access to you location to show you relevant search results. With \"Always\" access we'll also send you some noce notification";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to your location to show you relevant search results";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutik.mp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4CFB0D72B7F770200DB824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gmap/Preview Content\"";
+				DEVELOPMENT_TEAM = H4FSC3U7GM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gmap/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need Access to you location to show you relevant search results. With \"Always\" access we'll also send you some noce notification";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need Access to you location to show you relevant search results. With \"Always\" access we'll also send you some noce notification";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to your location to show you relevant search results";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutik.mp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CFB0C22B7F770100DB824C /* Build configuration list for PBXProject "Gmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFB0D32B7F770200DB824C /* Debug */,
+				F4CFB0D42B7F770200DB824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CFB0D52B7F770200DB824C /* Build configuration list for PBXNativeTarget "Gmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFB0D62B7F770200DB824C /* Debug */,
+				F4CFB0D72B7F770200DB824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4CFB0D82B7F775F00DB824C /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		F4F769802B807BD9003EE88E /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4CFB0D92B7F775F00DB824C /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CFB0D82B7F775F00DB824C /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		F4CFB0DB2B7F775F00DB824C /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CFB0D82B7F775F00DB824C /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		F4CFB0DD2B7F775F00DB824C /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CFB0D82B7F775F00DB824C /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		F4CFB0DF2B7F775F00DB824C /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CFB0D82B7F775F00DB824C /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+		F4F769812B807BD9003EE88E /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4F769802B807BD9003EE88E /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F4CFB0BF2B7F770100DB824C /* Project object */;
+}
