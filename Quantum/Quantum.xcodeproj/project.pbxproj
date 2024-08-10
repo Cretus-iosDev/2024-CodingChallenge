@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BE99C42C5CB753001221FE /* QuantumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99C32C5CB753001221FE /* QuantumApp.swift */; };
+		F4BE99C62C5CB753001221FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99C52C5CB753001221FE /* ContentView.swift */; };
+		F4BE99C82C5CB754001221FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BE99C72C5CB754001221FE /* Assets.xcassets */; };
+		F4BE99CB2C5CB754001221FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BE99CA2C5CB754001221FE /* Preview Assets.xcassets */; };
+		F4BE99D82C5CBFB0001221FE /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99D72C5CBFB0001221FE /* CustomTabBar.swift */; };
+		F4BE99DA2C5CBFD3001221FE /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99D92C5CBFD3001221FE /* CameraButton.swift */; };
+		F4BE99DC2C5CBFF6001221FE /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99DB2C5CBFF6001221FE /* TabBarButton.swift */; };
+		F4BE99DE2C5CC01B001221FE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99DD2C5CC01B001221FE /* HeaderView.swift */; };
+		F4BE99E02C5CC052001221FE /* OfferBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99DF2C5CC052001221FE /* OfferBannerView.swift */; };
+		F4BE99E22C5CC356001221FE /* GroceryBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99E12C5CC356001221FE /* GroceryBudgetView.swift */; };
+		F4BE99E42C5CC4A8001221FE /* ExpiredProductsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99E32C5CC4A8001221FE /* ExpiredProductsSection.swift */; };
+		F4BE99E62C5CC4F3001221FE /* ExpiringSoonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99E52C5CC4F3001221FE /* ExpiringSoonSection.swift */; };
+		F4BE99E82C5CC513001221FE /* ExpiringSoonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99E72C5CC513001221FE /* ExpiringSoonItem.swift */; };
+		F4BE99EE2C5CCAAD001221FE /* HouseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99ED2C5CCAAD001221FE /* HouseTabView.swift */; };
+		F4BE99F32C5CDDF6001221FE /* AllExpiredProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99F22C5CDDF6001221FE /* AllExpiredProductsView.swift */; };
+		F4BE99F52C5CDE1B001221FE /* AllExpiringProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99F42C5CDE1B001221FE /* AllExpiringProductsView.swift */; };
+		F4BE99F72C5CDE3E001221FE /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE99F62C5CDE3E001221FE /* ProductRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4BE99C02C5CB753001221FE /* Quantum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BE99C32C5CB753001221FE /* QuantumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumApp.swift; sourceTree = "<group>"; };
+		F4BE99C52C5CB753001221FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4BE99C72C5CB754001221FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BE99CA2C5CB754001221FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4BE99D72C5CBFB0001221FE /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		F4BE99D92C5CBFD3001221FE /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		F4BE99DB2C5CBFF6001221FE /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		F4BE99DD2C5CC01B001221FE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F4BE99DF2C5CC052001221FE /* OfferBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferBannerView.swift; sourceTree = "<group>"; };
+		F4BE99E12C5CC356001221FE /* GroceryBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryBudgetView.swift; sourceTree = "<group>"; };
+		F4BE99E32C5CC4A8001221FE /* ExpiredProductsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredProductsSection.swift; sourceTree = "<group>"; };
+		F4BE99E52C5CC4F3001221FE /* ExpiringSoonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiringSoonSection.swift; sourceTree = "<group>"; };
+		F4BE99E72C5CC513001221FE /* ExpiringSoonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiringSoonItem.swift; sourceTree = "<group>"; };
+		F4BE99ED2C5CCAAD001221FE /* HouseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTabView.swift; sourceTree = "<group>"; };
+		F4BE99F22C5CDDF6001221FE /* AllExpiredProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExpiredProductsView.swift; sourceTree = "<group>"; };
+		F4BE99F42C5CDE1B001221FE /* AllExpiringProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExpiringProductsView.swift; sourceTree = "<group>"; };
+		F4BE99F62C5CDE3E001221FE /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BE99BD2C5CB753001221FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BE99B72C5CB753001221FE = {
+			isa = PBXGroup;
+			children = (
+				F4BE99C22C5CB753001221FE /* Quantum */,
+				F4BE99C12C5CB753001221FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BE99C12C5CB753001221FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE99C02C5CB753001221FE /* Quantum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BE99C22C5CB753001221FE /* Quantum */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE99C32C5CB753001221FE /* QuantumApp.swift */,
+				F4BE99C52C5CB753001221FE /* ContentView.swift */,
+				F4BE99EC2C5CC941001221FE /* views */,
+				F4BE99F12C5CDAE8001221FE /* tabBar */,
+				F4BE99C72C5CB754001221FE /* Assets.xcassets */,
+				F4BE99C92C5CB754001221FE /* Preview Content */,
+			);
+			path = Quantum;
+			sourceTree = "<group>";
+		};
+		F4BE99C92C5CB754001221FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE99CA2C5CB754001221FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4BE99EC2C5CC941001221FE /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE99DD2C5CC01B001221FE /* HeaderView.swift */,
+				F4BE99DF2C5CC052001221FE /* OfferBannerView.swift */,
+				F4BE99E12C5CC356001221FE /* GroceryBudgetView.swift */,
+				F4BE99E32C5CC4A8001221FE /* ExpiredProductsSection.swift */,
+				F4BE99F22C5CDDF6001221FE /* AllExpiredProductsView.swift */,
+				F4BE99E52C5CC4F3001221FE /* ExpiringSoonSection.swift */,
+				F4BE99F42C5CDE1B001221FE /* AllExpiringProductsView.swift */,
+				F4BE99F62C5CDE3E001221FE /* ProductRow.swift */,
+				F4BE99E72C5CC513001221FE /* ExpiringSoonItem.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F4BE99F12C5CDAE8001221FE /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE99D72C5CBFB0001221FE /* CustomTabBar.swift */,
+				F4BE99DB2C5CBFF6001221FE /* TabBarButton.swift */,
+				F4BE99D92C5CBFD3001221FE /* CameraButton.swift */,
+				F4BE99ED2C5CCAAD001221FE /* HouseTabView.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BE99BF2C5CB753001221FE /* Quantum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BE99CE2C5CB754001221FE /* Build configuration list for PBXNativeTarget "Quantum" */;
+			buildPhases = (
+				F4BE99BC2C5CB753001221FE /* Sources */,
+				F4BE99BD2C5CB753001221FE /* Frameworks */,
+				F4BE99BE2C5CB753001221FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quantum;
+			productName = Quantum;
+			productReference = F4BE99C02C5CB753001221FE /* Quantum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BE99B82C5CB753001221FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F4BE99BF2C5CB753001221FE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F4BE99BB2C5CB753001221FE /* Build configuration list for PBXProject "Quantum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BE99B72C5CB753001221FE;
+			productRefGroup = F4BE99C12C5CB753001221FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BE99BF2C5CB753001221FE /* Quantum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BE99BE2C5CB753001221FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE99CB2C5CB754001221FE /* Preview Assets.xcassets in Resources */,
+				F4BE99C82C5CB754001221FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BE99BC2C5CB753001221FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE99E62C5CC4F3001221FE /* ExpiringSoonSection.swift in Sources */,
+				F4BE99F32C5CDDF6001221FE /* AllExpiredProductsView.swift in Sources */,
+				F4BE99F72C5CDE3E001221FE /* ProductRow.swift in Sources */,
+				F4BE99E42C5CC4A8001221FE /* ExpiredProductsSection.swift in Sources */,
+				F4BE99C62C5CB753001221FE /* ContentView.swift in Sources */,
+				F4BE99F52C5CDE1B001221FE /* AllExpiringProductsView.swift in Sources */,
+				F4BE99E82C5CC513001221FE /* ExpiringSoonItem.swift in Sources */,
+				F4BE99DE2C5CC01B001221FE /* HeaderView.swift in Sources */,
+				F4BE99D82C5CBFB0001221FE /* CustomTabBar.swift in Sources */,
+				F4BE99E22C5CC356001221FE /* GroceryBudgetView.swift in Sources */,
+				F4BE99DA2C5CBFD3001221FE /* CameraButton.swift in Sources */,
+				F4BE99DC2C5CBFF6001221FE /* TabBarButton.swift in Sources */,
+				F4BE99EE2C5CCAAD001221FE /* HouseTabView.swift in Sources */,
+				F4BE99C42C5CB753001221FE /* QuantumApp.swift in Sources */,
+				F4BE99E02C5CC052001221FE /* OfferBannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4BE99CC2C5CB754001221FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4BE99CD2C5CB754001221FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BE99CF2C5CB754001221FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum/Preview Content\"";
+				DEVELOPMENT_TEAM = WR5H634DWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutik.Quantum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BE99D02C5CB754001221FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum/Preview Content\"";
+				DEVELOPMENT_TEAM = WR5H634DWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutik.Quantum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BE99BB2C5CB753001221FE /* Build configuration list for PBXProject "Quantum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE99CC2C5CB754001221FE /* Debug */,
+				F4BE99CD2C5CB754001221FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BE99CE2C5CB754001221FE /* Build configuration list for PBXNativeTarget "Quantum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE99CF2C5CB754001221FE /* Debug */,
+				F4BE99D02C5CB754001221FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BE99B82C5CB753001221FE /* Project object */;
+}
